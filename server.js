@@ -12,7 +12,7 @@ app.use(cors({
   allowedHeaders: ['Content-Type']
 }));
 
-// Serve static files
+// Serve static files from public directory
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Main route
